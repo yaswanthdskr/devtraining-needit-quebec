@@ -45,7 +45,7 @@
         <donut_width_percent>42</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>u_request_type</field>
+        <field>active</field>
         <field_list>number,priority,state,assigned_to,short_description,sys_class_name</field_list>
         <filter/>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
@@ -55,7 +55,7 @@
         <group/>
         <import_table/>
         <interval>year</interval>
-        <is_published>true</is_published>
+        <is_published>false</is_published>
         <is_real_time>false</is_real_time>
         <is_scheduled>false</is_scheduled>
         <legend_align_columns>true</legend_align_columns>
@@ -76,9 +76,9 @@
         <others>true</others>
         <page_hdrftr/>
         <pivot_expanded>true</pivot_expanded>
-        <report_drilldown/>
-        <report_source/>
-        <roles>x_58872_needit.needit_user,public</roles>
+        <report_drilldown display_value="Monthly Active Requests by Requested for">6562aa162f3a201090df56e62799b6c8</report_drilldown>
+        <report_source display_value="Active NeedIt Requests (NeedIt)">59cc125a2ff6201090df56e62799b6bf</report_source>
+        <roles/>
         <row/>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
@@ -98,24 +98,24 @@
         <show_legend_border>false</show_legend_border>
         <show_marker>false</show_marker>
         <show_zero>false</show_zero>
-        <source_type>table</source_type>
+        <source_type>source</source_type>
         <start_time/>
         <style_config/>
         <sumfield/>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-03-12 06:14:31</sys_created_on>
-        <sys_id>6dbc02d22ff6201090df56e62799b6ea</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>NeedIt Requests by Type</sys_name>
+        <sys_created_on>2021-03-12 07:28:22</sys_created_on>
+        <sys_id>8b9dd2122f3a201090df56e62799b678</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>active NeedIt Requests by Type</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_report_6dbc02d22ff6201090df56e62799b6ea</sys_update_name>
+        <sys_update_name>sys_report_8b9dd2122f3a201090df56e62799b678</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-12 08:38:18</sys_updated_on>
+        <sys_updated_on>2021-03-12 07:49:17</sys_updated_on>
         <table>x_58872_needit_needit</table>
-        <title>NeedIt Requests by Type</title>
+        <title>active NeedIt Requests by Type</title>
         <title_horizontal_alignment>left</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
@@ -124,7 +124,7 @@
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
         <use_null_in_trend>false</use_null_in_trend>
-        <user>group</user>
+        <user>6816f79cc0a8016401c5a33be04be441</user>
         <x_axis_allow_decimals>true</x_axis_allow_decimals>
         <x_axis_display_grid>false</x_axis_display_grid>
         <x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color>
